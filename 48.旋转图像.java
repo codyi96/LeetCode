@@ -10,7 +10,7 @@ class Solution {
         if (matrix == null || matrix.length == 0) {
             return;
         }
-        int n = matrix[0].length;
+        int n = matrix.length; // 行数
         // 顺时针90°=转置+翻转
         for (int i = 0; i < n; i++) {
             for (int j = i; j < n; j++) {
